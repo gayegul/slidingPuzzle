@@ -1,0 +1,12 @@
+#container table tr td {
+  border: 1px solid black;
+  background-image: url(http://www.personal.psu.edu/jul229/mini.jpg);
+  background-repeat: no-repeat;
+  width: 157.5px;
+  height: 88.5px;
+  overflow: hidden;
+}
+
+.white {
+  background-image: none;
+}
