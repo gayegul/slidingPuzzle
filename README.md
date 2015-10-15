@@ -1,2 +1,2 @@
 # slidingPuzzle
-A sliding puzzle using jQuery and Instagram API
+A sliding puzzle written using jQuery.
