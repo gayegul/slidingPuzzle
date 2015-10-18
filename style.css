@@ -7,6 +7,6 @@
   overflow: hidden;
 }
 
-.white {
-  background-image: none;
+.hidden {
+  display: none;
 }
