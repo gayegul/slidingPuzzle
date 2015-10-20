@@ -1,4 +1,4 @@
-#container table tr td {
+#container table tr td div {
   border: 1px solid black;
   background-image: url(http://www.personal.psu.edu/jul229/mini.jpg);
   background-repeat: no-repeat;
@@ -6,7 +6,13 @@
   height: 88.5px;
   overflow: hidden;
 }
-
 .hidden {
   display: none;
+}
+.newClass {
+  background-image: url(http://www.personal.psu.edu/jul229/mini.jpg);
+}
+.white {
+  background-image: none;
+  background-color: #ffffff;
 }
