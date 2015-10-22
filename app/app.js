@@ -19,7 +19,7 @@ $(document).ready(function() {
         var div = $('<div>');
         div.attr("id", id++);
         div.css({'background-image': 'url(http://www.personal.psu.edu/jul229/mini.jpg)', 'background-position': position});
-        div.on('click', swap).on('click', win);
+        div.on('click', swap);
         divHolder.push(div);
         var td = $('<td>');
         td.append(div);
@@ -48,6 +48,7 @@ $(document).ready(function() {
     else if(bottom.hasClass('hidden')) {
       swapWithEmpty($(this), bottom);
     }
+    win();
   }
 
   function swapWithEmpty(item, empty) {
