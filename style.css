@@ -1,5 +1,4 @@
 body {
-  /*background-color: #49AFD0;*/
   background-image: url(http://www.integrity-apps.com/wp-content/uploads/2014/09/BlueSpace.jpg);
 }
 #container table tr td div {
@@ -12,6 +11,9 @@ body {
 }
 #container {
   display: block;
+  position: relative;
+  top: 0;
+  left: 0;
   width: 650px;
   margin: auto;
   padding-top: 50px;
@@ -20,9 +22,9 @@ body {
   display: none;
 }
 #shuffle {
-  position: absolute;
-  left: 75px;
-  top: 175px;
+  position: relative;
+  left: -175px;
+  top: 225px;
   padding: 10px;
   width: 150px;
   height: 50px;
@@ -44,8 +46,8 @@ body {
   margin: auto;
   border: ridge black 1px;
   position: absolute;
-  left: 500px;
-  top: 150px;
+  left: 200px;
+  top: 250px;
   background-color: #D6D3D4;
   -webkit-box-shadow: inset 0 0 10px #000000;
   text-shadow: 1px 1.5px;
@@ -53,13 +55,11 @@ body {
 .hiddenResult {
   display: none;
 }
-
 @-ms-keyframes wiggle{0%{-ms-transform:rotate(5deg);}50%{-ms-transform:rotate(-5deg);}100%{-ms-transform:rotate(5deg);}}
 @-moz-keyframes wiggle{0%{-moz-transform:rotate(5deg);}50%{-moz-transform:rotate(-5deg);}100%{-moz-transform:rotate(5deg);}}
 @-webkit-keyframes wiggle{0%{-webkit-transform:rotate(5deg);}50%{-webkit-transform:rotate(-5deg);}100%{-webkit-transform:rotate(5deg);}}
 @keyframes wiggle{0%{transform:rotate(5deg);}50%{transform:rotate(-5deg);}100%{transform:rotate(5deg);}}
 #result.wiggle-me{-ms-animation:wiggle .5s 4;-moz-animation:wiggle .5s 4;-webkit-animation:wiggle .5s 4;animation:wiggle .5s 4;}
-
 #footer {
   color: white;
   font-size: 85%;
@@ -69,7 +69,6 @@ body {
   right: 0;
   padding-top: 40px;
 }
-
 #footer a, #footer a:visited {
   color: white;
   text-decoration: none;

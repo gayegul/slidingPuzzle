@@ -11,7 +11,6 @@ $(document).ready(function() {
     for(var i = 0; i < numberOfRows; i++) {
       var tr = $('<tr>');
       table.append(tr);
-
       for(var j = 0; j < numberOfColumns; j++) {
         var width = 157.5;
         var height = 88.5;
@@ -100,8 +99,6 @@ $(document).ready(function() {
 
   function shuffle() {
     $('#result').addClass('hiddenResult');
-    $('#container').empty();
-    getPuzzleReady();
     for(var i = 0; i < 100; i++) {
       shuffleOnce();
     }
